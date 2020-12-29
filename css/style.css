@@ -1,0 +1,87 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+/*Responsive Design for Mobile View*/
+h1, h2, h3, h4, h5, h6{
+	font-weight: bold;
+}
+.navbar{
+	margin-bottom: 0;
+}
+header.navbar{
+	background: #888;
+	border: 2px solid #000;
+}
+.navbar-header a.navbar-brand{
+	font-weight: bold;
+	color: #000;
+	font-size: 24px;
+}
+.navbar-header .navbar-toggle{
+	background: #888;
+	border: 2px solid #000;
+}
+.navbar-header  .navbar-toggle .icon-bar{
+	background-color: #000;
+}
+.navbar-header .navbar-toggle:focus{
+	background: #888;
+	border: 2px solid #fff;
+}
+.navbar-header  .navbar-toggle:focus .icon-bar{
+	background-color: #fff;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+}
+.navbar-default .navbar-nav>li {
+    background: #fff;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #000;
+}
+.navbar-nav {
+    margin: 0;
+}
+.navbar-collapse {
+	padding: 0;
+	border: 0;
+}
+.navbar-default .navbar-nav>li:hover {
+    background: #e7e7e7;  
+}
+h2{
+	font-size: 22px;
+}
+.category{
+	margin-bottom: 20px;
+}
+.category h3{
+	text-align: center;
+	font-size: 18px;
+	margin-top: 0;
+	margin-left: 10px;
+}
+.category p{
+	font-weight: bold;
+}
+.category-tile{
+	background: #888;
+	height: 1000px;	
+	padding: 5px 10px;
+}
+
+/*Responsive Design for Tablet View*/
+@media (max-width: 767px) {
+	.main-content.container-fluid{
+		padding-left: 10%;
+		padding-right: 10%; 
+	}
+}
